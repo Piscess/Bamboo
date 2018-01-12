@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/products.css"/>
+		<script src="js/jquery-3.2.1.js"></script>
+		<script src="js/products.js"></script>
+	</head>
+	<body style="background: #ebf0f2;">
+	<!--#include file="header.html" -->
+		<div id="product_main"></div>
+		<!--<div class="p_top">-->
+			<!--<div class="product_header">-->
+				<!--<div class="img_text">-->
+					<!--<p><span>20 min</span></p>-->
+					<!--<p><span>菠萝炒饭</span></p>-->
+				<!--</div>-->
+			<!--</div>-->
+			<!--<div class="desc">-->
+				<!--<span>一碗充满菠萝香的炒饭，糙米提供了足够的缓释碳水，青豆、胡萝卜、菠萝为炒饭提供了丰富口感。</span>-->
+			<!--</div>-->
+		<!--</div>-->
+		<!--<div class="p_main">-->
+			<!--<p>步骤</p>-->
+			<!--<ul class="steps">-->
+				<!--<li>-->
+					<!--<h4>Step1</h4>-->
+					<!--<p>菠萝对半切开，挖空，果肉切小丁。</p>-->
+					<!--<img src="img/diet/boluo/step1.jpg" alt="" />-->
+				<!--</li>-->
+				<!--<li>-->
+					<!--<h4>Step2</h4>-->
+					<!--<p>胡萝卜切碎。</p>-->
+					<!--<img src="img/diet/boluo/step2.jpg" alt="" />-->
+				<!--</li>-->
+				<!--<li>-->
+					<!--<h4>Step3</h4>-->
+					<!--<p>炒锅预热，倒入食用油，放入胡萝卜，再放入糙米饭快速翻炒，最后加入菠萝、青豆，出锅前加入少许盐调味。</p>-->
+					<!--<img src="img/diet/boluo/step3.jpg" alt="" />-->
+				<!--</li>-->
+				<!--<li>-->
+					<!--<h4>Step4</h4>-->
+					<!--<p>将炒好的饭盛到菠萝壳内，菠萝炒饭就做好了。</p>-->
+					<!--<img src="img/diet/boluo/step4.jpg" alt="" />-->
+				<!--</li>-->
+			<!--</ul>-->
+		<!--</div>-->
+	<!--#include file="footer.html" -->
+	</body>
+</html>

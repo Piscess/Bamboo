@@ -1,0 +1,69 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+body {
+	text-align: center;	
+}
+div{
+	box-sizing: border-box;
+}
+ul{
+	list-style: none;
+}
+a:hover{
+	text-decoration: none;
+}
+/*底色*/
+.footer{
+	background-color: rgb(51,51,51);
+	text-align: center;
+}
+/*底部帮助栏 选项*/
+#footer_help{
+	width: 500px;
+	margin: 0 auto;
+}
+#footer_help ul{
+	padding: 0;
+	margin: 0;
+}
+#footer_help li{
+	float: left;
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+}
+.footer_string{
+	width: 20px;
+}
+/*底部联系方式按钮*/
+
+#footer_contact_pic{
+	width: 324px;
+	margin: 10px auto 30px;
+}
+#footer_contact_pic li{
+	float: left;
+	width: 48px;
+	height: 48px;
+	margin: 0 30px;
+	border-radius: 50px;
+	background-size: 48px 48px;
+	background-position: center;
+	text-align: center;
+}
+#WB{
+	background-image: url(../img/footer/footer_weibo.png);
+}
+#WX{
+	background-image: url(../img/footer/footer_weixin.png);
+}
+#QQ{
+	background-image: url(../img/footer/footer_QQ.png);
+}
+#footer_contact_pic li:hover{
+	cursor: pointer;
+}

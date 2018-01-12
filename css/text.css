@@ -1,0 +1,22 @@
+/* 头部 welcome文字*/
+#header_left{
+	color: white;
+	font-size: 15px;
+}
+/*导航栏选项*/
+#nav_section a{
+	color:white;
+	font-family: "微软雅黑";
+}
+/*底部帮助栏字体*/
+#footer_help li{
+	color:white;
+	font-family: "微软雅黑";
+}
+/*底部联系栏字体*/
+#footer_contact_text{
+	color:#bbb;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	text-align: center;
+}

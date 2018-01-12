@@ -1,0 +1,330 @@
+/*整体网页宽度 居中*/
+#main{
+	width: 1024px;
+	margin: 0 auto;
+	font-family: "微软雅黑";
+}
+/*上部整体*/
+#top_banner{
+	display: flex;
+}
+#week{
+	width: 320px;
+	height: 320px;
+	/*border: 1px solid black;*/
+	margin-top: 15px;
+	padding: 10px;
+	background-color: #6F605A;
+}
+#week ul{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+#week ul li{
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+}
+#week ul li span{
+	color: white;
+	font-family: "微软雅黑";
+	font-size: 20px;
+}
+#week ul li:hover{
+	cursor: pointer;
+}
+#week ul li:first-child:hover{
+	cursor: auto;
+}
+#week ul li:last-child:hover{
+	cursor: auto;
+}
+#week ul li:nth-child(2){
+	background-color: #FEA712;
+}
+#week ul li:nth-child(3){
+	background-color: #C0FF3E;
+}
+#week ul li:nth-child(4){
+	background-color: #24A203;
+}
+#week ul li:nth-child(5){
+	background-color: #4989E3;
+}
+#week ul li:nth-child(6){
+	background-color: #9B58B5;
+}
+#week ul li:nth-child(7){
+	background-color: #FFC100;
+}
+#week ul li:nth-child(8){
+	background-color: #D72A19;
+}
+/*上: 右侧轮播图*/
+#banner{
+	width: 704px;
+	height: 320px;
+	margin-top: 15px;
+	position: relative;
+	overflow: hidden;
+}
+#banner_pic{
+	position: absolute;
+	width: 4224px;
+	height:320px;
+	z-index: 1;
+	transition:left 2s;
+	transition-timing-function: linear;
+}
+.b_pic{
+	float: left;
+	width: 704px;
+	height: 320px;
+}
+#banner a.ck-slide{
+	z-index: 3;
+	/*绝对定位，宽度，高度，偏移位置，背景颜色，边框倒角，透明度*/
+	position:absolute;
+	width:35px;
+	height:70px;
+	top:125px;
+	background:#000;
+	border-radius:3px;
+	opacity:0.1;
+	/*过渡*/
+	transition: all .3s;
+}
+#banner a.ck-slide:hover{
+	/*透明度*/
+	opacity:0.3;
+}
+#banner a.ck-left{
+	background:#000 url(../img/index/arrow-left.png) no-repeat center center;
+	left:10px;
+}
+#banner a.ck-right{
+	background:#000 url(../img/index/arrow-right.png) no-repeat center center;
+	right:10px;
+}
+/*小圆点*/
+#banner ul.indicators{
+	z-index: 3;
+	/*绝对定位，位置偏移 */
+	position:absolute;
+	left:308px;
+	bottom:15px;
+}
+#banner ul.indicators li{
+	/*宽度，高度，背景颜色，边框倒角*/
+	width:12px;
+	height:12px;
+	background:#fff;
+	border-radius:50%;
+	/*左浮动，右外边距*/
+	float:left;
+	margin-right:10px;
+}
+#banner ul.indicators li:hover{
+	cursor:pointer;
+	background:#0aa1ed;
+}
+/*中间*/
+.recommend_food{
+	display: flex;
+	justify-content: space-between;
+}
+/*左侧标题整体*/
+.left_title{
+	margin: 20px 0 20px 0;
+	width: 174px;
+	height: 255px;
+}
+/*左侧标题 样式 字体*/
+.left_title p:first-child{
+	margin: 46% auto 15% auto;
+	width: 70%;
+	height: 50px;
+	line-height: 50px;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	font-size: 24px;
+	color: white;
+	text-align: center;
+}
+.left_title p:last-child{
+	margin: 0 auto 4% auto;
+	text-align: center;
+	width: 80%;
+	height: 20px;
+	padding: 0;
+	font-size: 16px;
+	color: white;
+}
+/*右侧整体*/
+.recommend_food div:last-child{
+	margin-top: 20px;
+}
+/*右侧标题*/
+.box_title{
+	height: 38px;
+	margin: 0;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 2px solid black;
+}
+/*右侧标题 层数 样式*/
+.box_title p:first-child{
+	font-size: 32px;
+}
+/*右侧标题 more 样式*/
+.box_title p:last-child{
+	padding-top: 10px;
+	font-size: 20px;
+}
+/*右侧食品box样式*/
+.main_box{
+	width: 830px;
+	display: flex;
+	justify-content: space-between;
+
+}
+.main_box li{
+	width: 190px;
+	padding-top: 25px;
+	position: relative;
+	z-index: 1;
+}
+.main_box li:hover .main_box li span:last-child{
+	animation:shadow 5s linear 5s;
+	-webkit-animation: shadow 5s linear 5s;
+}
+
+.main_box li img{
+	width: 190px;
+	height: 190px;
+}
+.main_box li span:nth-child(2){
+	width: 190px;
+	height: 50px;
+	line-height:60px;
+	background: linear-gradient(transparent,black);
+	color: white;
+	position: absolute;
+	bottom:0;
+	left: 0;
+	text-align: center;
+	font-size: 18px;
+}
+/*隐藏的介绍*/
+.main_box li span:last-child{
+	width: 190px;
+	height: 190px;
+	padding:15px;
+	position: absolute;
+	bottom:0;
+	left: 0;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	font-size: 16px;
+	opacity: 0;
+	z-index: 0;
+	cursor: pointer;
+}
+.main_box>li :hover span:last-child{
+	z-index: 3;
+}
+.main_box li span:last-child:hover{
+	animation:shadow 0.5s linear  1 forwards;
+	-webkit-animation:shadow 0.5s linear  1 forwards;
+}
+@keyframes shadow{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+@-webkit-keyframes shadow{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+/*左侧标题背景色*/
+#lt1{
+	background-color: #ff5511;
+}
+#lt2{
+	background-color: #44BB00;
+}
+#lt3{
+	background-color: #0088AB;
+}
+/*底部 资料部分*/
+.data{
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+.data ul{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.data ul li{
+	width: 341.33px;
+	height: 230px;
+	color: white;
+	padding-top: 50px;
+}
+.data ul li p:first-child{
+	font-weight: bold;
+	font-size: 22px;
+	height: 22px;
+}
+.data ul li p:nth-child(2){
+	font-weight: bold;
+	font-size: 22px;
+	height: 45px;
+	margin: 0 auto;
+	width:120px;
+	border-bottom: 1px solid white;
+	;
+}
+.data ul li p:last-child{
+	margin-top: 25px;
+}
+/*6宫格*/
+.data ul li:first-child{
+	background-image: url(../img/banner/banner1.jpg);
+}
+.data ul li:nth-child(2){
+	background: #FFC229;
+}
+.data ul li:nth-child(3){
+	background-image: url(../img/banner/banner2.jpg);
+}
+.data ul li:nth-child(4){
+	background: #BBD615;
+}
+.data ul li:nth-child(5){
+	background-image: url(../img/banner/banner3.jpg);
+}
+.data ul li:last-child{
+	background: #66CCFF;
+}
+/*返回顶部*/
+#totop{
+	width: 50px;
+	height: 50px;
+	border-radius: 5px;
+	background: green;
+	position: fixed;
+	right: 5%;
+	bottom:10%;
+	z-index: 10;
+	display:none;
+}
+#totop a{
+	color:white;
+	height: 50px;
+	width: 50px;
+	line-height: 50px;
+	font-size: 24px;
+	text-decoration: none;
+}

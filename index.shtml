@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="js/banner.js"></script>
+		<script src="js/jquery-3.2.1.js"></script>
+	</head>
+	<body>
+	<!--#include file="header.html" -->
+		<div id="main">
+			<div id="top_banner">
+				<!--1.上: 左:星期表 -->
+				<div id="week">
+					<ul>
+						<li></li>
+						<li><span>Sun</span></li>
+						<li><span>Mon</span></li>
+						<li><span>Tue</span></li>
+						<li><span>Wed</span></li>
+						<li><span>Thu</span></li>
+						<li><span>Fri</span></li>
+						<li><span>Sta</span></li>
+						<li></li>
+					</ul>
+				</div>
+				<!--2.上: 右:轮播-->
+				<div id="banner">
+					<div id="banner_pic" style="left: -704px;">
+						<img src="img/banner/1.jpg" class="b_pic"/>
+						<img src="img/banner/753309_174510930000_2.jpg" class="b_pic"/>
+						<img src="img/banner/banner_3.jpg" class="b_pic" />
+						<img src="img/banner/banner_2.jpg" class="b_pic" />
+						<img src="img/banner/1.jpg" class="b_pic"/>
+						<img src="img/banner/753309_174510930000_2.jpg" class="b_pic"/>
+					</div>
+					<ul class="indicators" id="banner_dot">
+						<li class="b_dot"></li>
+						<li class="b_dot"></li>
+						<li class="b_dot"></li>
+						<li class="b_dot"></li>
+					</ul>
+					<a href="javascript:;" class="ck-slide ck-left" id="prev"></a>
+					<a href="javascript:;" class="ck-slide ck-right" id="next"></a>
+				</div>
+				
+			</div>
+			<!--2.中: 早中晚饭推荐-->
+			<div>
+				<!--1.早饭-->
+				<div class="recommend_food">
+					<div class="left_title" id="lt1">
+						<p>精致早餐</p>
+						<p>精挑细选的餐点开启一天的好心情</p>
+					</div>
+					<div id="f1">
+						<div class="box_title">
+							<p>1st Floor</p>
+							<p><a href="#">more</a></p>
+						</div>
+						<ul class="main_box">
+
+						</ul>
+					</div>
+				</div>
+				<!--2.中饭-->
+				<div class="recommend_food">
+					<div class="left_title" id="lt2">
+						<p>减脂午餐</p>
+						<p>低脂的便当保持一副好身材</p>
+					</div>
+					<div id="f2">
+						<div class="box_title">
+							<p>2nd Floor</p>
+							<p><a href="#">more</a></p>
+						</div>
+						<ul class="main_box">
+
+						</ul>
+					</div>					
+				</div>
+				<!--3.晚饭-->
+				<div class="recommend_food">
+					<div class="left_title" id="lt3">
+						<p>充能晚餐</p>
+						<p>工作了一天给身体充电</p>
+					</div>
+					<div id="f3">
+						<div class="box_title">
+							<p>3rd Floor</p>
+							<p><a href="#">more</a></p>
+						</div>
+						<ul class="main_box">
+
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!--底部材料 小知识 食谱大全--> 
+			<div class="data">
+				<ul>
+					<li></li>
+					<li>
+						<p>100%</p> 
+						<p>NATURAL</p>
+						<p>在夏天之前瘦成一道“闪电”</p>
+					</li>
+					<li></li>
+					<li>
+						<p>ALWAY</p>
+						<p>FRESH</p>
+						<p>沙拉是减脂期最常见的一种选择</p>
+					</li>
+					<li></li>
+					<li>
+						<p>HEALTHY</p> 
+						<p>COOKING</p>
+						<p>奶酪是一种营养密度非常高的食物</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	<div id="totop"><a href="#">Top</a></div>
+		<!--#include file="footer.html" -->
+	</body>
+</html>
+<script src="js/ajax.js"></script>
+<script src="js/index.js"></script>

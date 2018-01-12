@@ -1,0 +1,64 @@
+*{
+	text-align: left;
+}
+p{
+	margin: 0;
+}
+.p_top{
+	position:relative;
+	margin:0 auto;
+	background: white;
+	width: 768px;
+	margin-bottom: 20px;
+}
+.product_header{
+	background: no-repeat center;
+	background-size: cover;
+	width: 768px;
+	height: 500px;
+	margin:0 auto;
+}
+.img_text{
+	position: absolute;
+	bottom: 50px;
+	left: 20px;
+	color: white;
+}
+.img_text p:first-child{
+	font-size: 1.5rem;
+	text-align: left;
+	margin: 0;
+}
+.img_text p:last-child{
+	font-size: 2.5rem;
+	font-family: "微软雅黑";
+}
+.desc{
+	width: 768px;
+	line-height:2rem;
+	font-size: 1.3rem;
+	padding:2rem 1.4rem 0;
+	text-align: left;
+	margin: 0 auto;
+}
+.p_main{
+	width: 768px;
+	margin: 0 auto;
+	background: white;
+	padding: 25px 15px;
+}
+.p_main p:first-child{
+	font-size: 2.5rem;
+	text-align: left;
+}
+.steps li{
+	margin-top: 30px;
+}
+.steps li img{
+	display: block;
+	margin: 0 auto;
+	width: 534px;
+	height: 500px;
+}
+
+

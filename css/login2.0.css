@@ -1,0 +1,177 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100%;
+	height: 100%;
+	text-align: center;	
+	background-image: url(../img/login/cj008.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+ul{
+	list-style: none;
+}
+a:hover{
+	text-decoration: none;
+}
+/*沙拉大背景*/
+#login_main{
+	padding-top: 13%;
+}
+/*登陆界面 表单整体*/
+.lrform{
+	width: 345px;
+	margin: 0 auto;
+	border-radius: 15px;
+	background-color: rgba(0,0,0,0.3);
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+/*BamBoo 字体*/
+.lrform p:first-child a{
+	font-size: 50px;
+	color: white;
+	-webkit-text-stroke: 1px rgb(153,205,153);	
+}
+/*竹子食谱字体*/
+.lrform p:nth-child(2){
+	font-size: 20px;
+	color: transparent;
+	-webkit-text-stroke: 1px rgb(153,205,153);	
+}
+/*用户名输入框*/
+.lrform p:nth-child(4) input{
+	width: 220px;
+	height: 30px;
+	border-radius: 5px;
+	border: none;
+	padding-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+/*密码输入框*/
+.lrform p:nth-child(5) input{
+	width: 220px;
+	height: 30px;
+	border-radius: 5px;
+	border: none;
+	padding-left: 10px;
+	
+}
+/*忘了密码 字体 位置*/
+.lrform p:nth-child(6) span{
+	widows: 50px;
+	position: relative;
+	left: 20%;
+	color: white;
+}
+.lrform p:nth-child(7){
+	display: flex;
+	justify-content: space-between;
+	padding: 0 18%;
+}
+/*登陆按钮*/
+#login_button{
+	width: 100px;
+	height: 30px;
+	background-color: rgb(153,205,153);
+	border: none;
+	color: white;
+	font-family: "微软雅黑";
+}
+/*注册链接按钮*/
+#login_form p:last-child a{
+	display: block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	background-color: rgb(153,205,153);
+	text-align: center;
+	color: white;
+}
+
+
+/*底色*/
+.footer{
+	background-color: rgb(51,51,51);
+	position:fixed;
+    bottom:0;
+    width: 100%;
+}
+/*底部帮助栏 选项*/
+#footer_help{
+	width: 500px;
+	margin: 0 auto;
+}
+#footer_help ul{
+	padding: 0;
+	margin: 0;
+}
+#footer_help li{
+	float: left;
+	width: 100px;
+	margin-top: 10px;
+}
+.footer_string{
+	width: 20px;
+}
+/*底部联系方式按钮*/
+
+#footer_contact_pic{
+	width: 324px;
+	margin: 10px auto 0px;
+}
+#footer_contact_pic li{
+	float: left;
+	width: 48px;
+	height: 48px;
+	margin: 0 30px;
+	border-radius: 50px;
+	background-size: 48px 48px;
+	background-position: center;
+}
+#WB{
+	background-image: url(../img/footer/footer_weibo.png);
+}
+#WX{
+	background-image: url(../img/footer/footer_weixin.png);
+}
+#QQ{
+	background-image: url(../img/footer/footer_QQ.png);
+}
+#footer_contact_pic li:hover{
+	cursor: pointer;
+}
+
+#err{
+	width: 200px;
+	height: 20px;
+	font-size: 14px;
+	line-height: 20px;
+	color: red;
+	margin: 0 auto;
+	border-radius: 4px;
+}
+
+#Regerr{
+	width: 200px;
+	height: 20px;
+	font-size: 14px;
+	line-height: 20px;
+	color: red;
+	margin: 0 auto;
+	border-radius: 4px;
+}	
+/*注册模式*/
+#register_button{
+	width: 220px;
+	height: 30px;
+	background-color: rgb(153,205,153);
+	border: none;
+	color: white;
+	font-family: "微软雅黑";
+}

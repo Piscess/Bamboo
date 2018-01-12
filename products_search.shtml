@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/produces_search.css">
+    <script src="js/jquery-3.2.1.js"></script>
+</head>
+<body>
+<!--#include file="header.html" -->
+    <div class="main">
+        <p class="search_title">搜索结果</p>
+        <ul class="search_result">
+
+        </ul>
+    </div>
+<!--#include file="footer.html" -->
+</body>
+</html>
+<script src="js/products_search.js"></script>

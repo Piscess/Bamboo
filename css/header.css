@@ -1,0 +1,196 @@
+/* 主页样式 */
+body {
+	margin:0 auto;	
+}
+div{
+	box-sizing: border-box;
+}
+ul{
+	list-style: none;
+}
+a:visited{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+/* 顶部  */
+.header{
+	background-color: rgb(36,174,68);
+	padding:0.3% 10%;
+	display: flex;
+	justify-content: space-between;
+}
+/*顶部文字*/
+#header_left {
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	/*background-color: rgb(86,194,1);*/
+}
+/*顶部登陆注册按钮*/
+#header_right{
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	color: white;
+}
+#header_right b{
+	margin: 0 5px;
+}
+#header_right a{
+	color: white;
+}
+
+#login_right{
+	width: 150px;
+	height: 30px;
+	line-height: 30px;
+	color: white;
+}
+#login_right b{
+	margin: 0 5px;
+}
+#login_right a{
+	color: white;
+}
+/*上部LOGO用户按钮*/
+.top{
+	/*background-color: rgb(150,185,125);*/
+	background-color: rgb(153,205,153);
+	
+}
+/*上部整体*/
+.top>div{
+	width: 1024px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+/*LOGO*/
+.top div div:first-child{
+	width: 300px;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+.top div:first-child a:first-child img{
+	height: 100px;
+	width: 180px;
+}
+/*登陆*/
+
+/*登陆按钮 图标*/
+.top div:first-child .user_btn{
+	position: relative;
+    display: block;
+    padding: 15px 18px;
+    height: 60px;
+    width: 60px;
+    color: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+	background-color: rgb(36,174,68);
+	margin:auto 0;
+}
+.top div:first-child>.user_btn:visited{
+	text-decoration: none;
+}
+.top div:first-child>.user_btn:focus{
+	text-decoration: none;
+}
+.top div:first-child .user_btn:hover{
+	text-decoration: none;
+	background-color: rgb(153,205,153);
+}
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+.top div:first-child>.user_btn span{
+	width: 25px;
+	height: 25px;
+	display: block;
+    font-family: 'Glyphicons Halflings';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+}
+/*搜索框*/
+#search{
+	width: 380px;
+	height: 100%;
+	margin: auto 0;
+	position: relative;
+}
+#search input{
+	width: 360px;
+	height: 30px;
+	border: greenyellow;
+	border-radius: 30px;
+	padding-left: 10px;
+	text-align: left;
+}
+#search a{
+	width: 50px;
+	height: 30px;
+	position: absolute;
+	left: 320px;
+	border-radius: 30px;
+	background: green;
+	color: white;
+	line-height: 30px;
+	text-align: center;
+}
+/* 导航 */
+.nav {
+	background-color: #3D3D3D;
+	display: flex;
+	flex-direction: row-reverse;
+}
+#nav_section{
+	margin-right: 150px;
+}
+/*导航栏选项*/
+#nav_section ul li{
+	float: left;
+	width: 150px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+}
+#nav_section ul li:hover{
+	background-color: rgb(36,174,68);;
+}
+
+.user_info{
+	width: 250px;
+	height: 300px;
+	position: absolute;
+	top: 90px;
+	left: 240px;
+	background: #fff;
+	z-index: 10;
+	border-radius: 5px;
+}
+.user_pic{
+	width: 200px;
+	height: 130px;
+	margin: 20px auto 0;
+	border-bottom: 1px solid #CCCCCC;
+}
+.user_pic img{
+	width: 100px;
+}
+#user_uname{
+	width: 250px;
+	height: 50px;
+	margin-top: 20px;
+	text-align: center;
+}
+
